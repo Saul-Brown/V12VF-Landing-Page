@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Calibri';
   line-height: 1.6;
 }
 
@@ -97,12 +97,12 @@ section {
   color: white;
   text-align: center;
   padding: 15em 0;
-  background: #222;
+  background: #7e7e7e;
 }
 
 @supports (background-blend-mode: multiply) {
   .hero {
-    background: url(../img/shoe-3.png), radial-gradient(#444, #111);
+    background: url(images/V12_Vehicle_Finance_Logo.png), radial-gradient(#444, #111);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -210,20 +210,20 @@ section {
 }
 
 .shoe-red {
-  --clr-inner: #faa700;
-  --clr-outer: #e48d00;
-  --clr-accent: #a1173c;
+  --clr-inner: #d57b18;
+  --clr-outer: #ca7820;
+  --clr-accent: #003c65;
 }
 
 .shoe-white {
-  --clr-inner: #fce4b3;
-  --clr-outer: #eac886;
-  --clr-accent: #2f4858;
+  --clr-inner: #003c65;
+  --clr-outer: #003c65;
+  --clr-accent: #7e7e7e;
 }
 
 .shoe-blue {
-  --clr-inner: #6dd5ed;
-  --clr-outer: #2193b0;
-  --clr-accent: #008951;
+  --clr-inner: #7e7e7e;
+  --clr-outer: #7e7e7e;
+  --clr-accent: #d57b18;
 }
 /*# sourceMappingURL=main.css.map */
